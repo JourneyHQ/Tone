@@ -1,2 +1,1 @@
-# Tone
-🎶 Journey/Tone
+# 🎶 Journey / Tone
