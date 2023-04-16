@@ -7,7 +7,7 @@ import io.ktor.client.statement.*
 import kotlinx.serialization.json.Json
 
 
-class YouTube(private val key: String = "AIzaSyBHyDfERWZ4v2cF1KUJr880QQejxk1hN-o") {
+class YouTube(private val key: String) {
     private fun baseUrl(term: String, limit: Int) =
         "https://www.googleapis.com/youtube/v3/search?type=video&part=snippet&q=$term&key=$key&maxResults=$limit"
 
